@@ -1,8 +1,53 @@
-body {
-    background-color: blueviolet;
-    font-family: sans-serif;
-    text-align: center;    
+*{
+    box-sizing: border-box;
 }
-h1{
-    color: red;
+body {
+   margin: 0;
+   background-color: greenyellow;
+}
+@media (min-width:460px) {
+    body {
+        background-color: blue;
+    }
+}
+@media (min-width: 768px) {
+    body{
+        background-color: yellow;
+    }
+}
+.contenedor{
+    display: flex;
+}
+.elemento1{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+
+}
+.elemento2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(112, 216, 121);
+
+}
+.elemento3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(37, 16, 77);
+
+}
+    h1{
+    color: chartreuse;
+}
+h2{
+    color: darkorange;
+}
+p{
+    color: mediumspringgreen;
+}
+div{
+    color: azure;
+}
+span{
+    color: bisque;
 }
